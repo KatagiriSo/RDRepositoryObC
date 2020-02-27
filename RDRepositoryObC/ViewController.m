@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RDWikipediaManager.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [RDWikipediaManager.sharedManager loadList:^(NSArray<RDWikipediaRecord *> * _Nullable records, NSError * _Nullable error) {
+        NSLog(@"%@", [records description]);
+    }];
 }
 
 

@@ -16,6 +16,14 @@
 		8B3EB2E02407BFD000801531 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB2DF2407BFD000801531 /* main.m */; };
 		8B3EB2EA2407BFD000801531 /* RDRepositoryObCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB2E92407BFD000801531 /* RDRepositoryObCTests.m */; };
 		8B3EB2F52407BFD000801531 /* RDRepositoryObCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB2F42407BFD000801531 /* RDRepositoryObCUITests.m */; };
+		8B3EB3052407C01600801531 /* RDCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB3042407C01600801531 /* RDCache.m */; };
+		8B3EB3082407C03500801531 /* RDLoadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB3072407C03500801531 /* RDLoadOperation.m */; };
+		8B3EB30E2407CDEE00801531 /* RDJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB30D2407CDEE00801531 /* RDJSON.m */; };
+		8B3EB3112407CE5D00801531 /* RDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB3102407CE5D00801531 /* RDUtil.m */; };
+		8B3EB3172407DF8400801531 /* RDWikipediaOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB3162407DF8400801531 /* RDWikipediaOperation.m */; };
+		8B3EB31A2407E95100801531 /* RDWikipediaRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB3192407E95100801531 /* RDWikipediaRecord.m */; };
+		8B3EB31D2407EBB600801531 /* RDWikipediaCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB31C2407EBB600801531 /* RDWikipediaCache.m */; };
+		8B3EB3202407EC3100801531 /* RDWikipediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EB31F2407EC3100801531 /* RDWikipediaManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,24 @@
 		8B3EB2F02407BFD000801531 /* RDRepositoryObCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RDRepositoryObCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3EB2F42407BFD000801531 /* RDRepositoryObCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDRepositoryObCUITests.m; sourceTree = "<group>"; };
 		8B3EB2F62407BFD000801531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3EB3032407C01600801531 /* RDCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDCache.h; sourceTree = "<group>"; };
+		8B3EB3042407C01600801531 /* RDCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDCache.m; sourceTree = "<group>"; };
+		8B3EB3062407C03500801531 /* RDLoadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDLoadOperation.h; sourceTree = "<group>"; };
+		8B3EB3072407C03500801531 /* RDLoadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDLoadOperation.m; sourceTree = "<group>"; };
+		8B3EB3092407C04400801531 /* RDRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDRecord.h; sourceTree = "<group>"; };
+		8B3EB30C2407CDEE00801531 /* RDJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDJSON.h; sourceTree = "<group>"; };
+		8B3EB30D2407CDEE00801531 /* RDJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDJSON.m; sourceTree = "<group>"; };
+		8B3EB30F2407CE5D00801531 /* RDUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDUtil.h; sourceTree = "<group>"; };
+		8B3EB3102407CE5D00801531 /* RDUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDUtil.m; sourceTree = "<group>"; };
+		8B3EB3152407DF8400801531 /* RDWikipediaOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWikipediaOperation.h; sourceTree = "<group>"; };
+		8B3EB3162407DF8400801531 /* RDWikipediaOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWikipediaOperation.m; sourceTree = "<group>"; };
+		8B3EB3182407E95100801531 /* RDWikipediaRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWikipediaRecord.h; sourceTree = "<group>"; };
+		8B3EB3192407E95100801531 /* RDWikipediaRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWikipediaRecord.m; sourceTree = "<group>"; };
+		8B3EB31B2407EBB600801531 /* RDWikipediaCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWikipediaCache.h; sourceTree = "<group>"; };
+		8B3EB31C2407EBB600801531 /* RDWikipediaCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWikipediaCache.m; sourceTree = "<group>"; };
+		8B3EB31E2407EC3100801531 /* RDWikipediaManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDWikipediaManager.h; sourceTree = "<group>"; };
+		8B3EB31F2407EC3100801531 /* RDWikipediaManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDWikipediaManager.m; sourceTree = "<group>"; };
+		8B3EB3212407F36F00801531 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +130,8 @@
 		8B3EB2CC2407BFCE00801531 /* RDRepositoryObC */ = {
 			isa = PBXGroup;
 			children = (
+				8B3EB3142407DF5F00801531 /* Sample */,
+				8B3EB3022407BFDC00801531 /* RDRepositoryObC */,
 				8B3EB2CD2407BFCE00801531 /* AppDelegate.h */,
 				8B3EB2CE2407BFCE00801531 /* AppDelegate.m */,
 				8B3EB2D02407BFCE00801531 /* SceneDelegate.h */,
@@ -115,6 +143,7 @@
 				8B3EB2DB2407BFD000801531 /* LaunchScreen.storyboard */,
 				8B3EB2DE2407BFD000801531 /* Info.plist */,
 				8B3EB2DF2407BFD000801531 /* main.m */,
+				8B3EB3212407F36F00801531 /* README.md */,
 			);
 			path = RDRepositoryObC;
 			sourceTree = "<group>";
@@ -135,6 +164,37 @@
 				8B3EB2F62407BFD000801531 /* Info.plist */,
 			);
 			path = RDRepositoryObCUITests;
+			sourceTree = "<group>";
+		};
+		8B3EB3022407BFDC00801531 /* RDRepositoryObC */ = {
+			isa = PBXGroup;
+			children = (
+				8B3EB3032407C01600801531 /* RDCache.h */,
+				8B3EB3042407C01600801531 /* RDCache.m */,
+				8B3EB3062407C03500801531 /* RDLoadOperation.h */,
+				8B3EB3072407C03500801531 /* RDLoadOperation.m */,
+				8B3EB3092407C04400801531 /* RDRecord.h */,
+				8B3EB30C2407CDEE00801531 /* RDJSON.h */,
+				8B3EB30D2407CDEE00801531 /* RDJSON.m */,
+				8B3EB30F2407CE5D00801531 /* RDUtil.h */,
+				8B3EB3102407CE5D00801531 /* RDUtil.m */,
+			);
+			path = RDRepositoryObC;
+			sourceTree = "<group>";
+		};
+		8B3EB3142407DF5F00801531 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				8B3EB31E2407EC3100801531 /* RDWikipediaManager.h */,
+				8B3EB31F2407EC3100801531 /* RDWikipediaManager.m */,
+				8B3EB3152407DF8400801531 /* RDWikipediaOperation.h */,
+				8B3EB3162407DF8400801531 /* RDWikipediaOperation.m */,
+				8B3EB3182407E95100801531 /* RDWikipediaRecord.h */,
+				8B3EB3192407E95100801531 /* RDWikipediaRecord.m */,
+				8B3EB31B2407EBB600801531 /* RDWikipediaCache.h */,
+				8B3EB31C2407EBB600801531 /* RDWikipediaCache.m */,
+			);
+			path = Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +329,16 @@
 			files = (
 				8B3EB2D52407BFCE00801531 /* ViewController.m in Sources */,
 				8B3EB2CF2407BFCE00801531 /* AppDelegate.m in Sources */,
+				8B3EB3052407C01600801531 /* RDCache.m in Sources */,
+				8B3EB3202407EC3100801531 /* RDWikipediaManager.m in Sources */,
+				8B3EB3082407C03500801531 /* RDLoadOperation.m in Sources */,
+				8B3EB30E2407CDEE00801531 /* RDJSON.m in Sources */,
 				8B3EB2E02407BFD000801531 /* main.m in Sources */,
+				8B3EB31D2407EBB600801531 /* RDWikipediaCache.m in Sources */,
+				8B3EB3172407DF8400801531 /* RDWikipediaOperation.m in Sources */,
 				8B3EB2D22407BFCE00801531 /* SceneDelegate.m in Sources */,
+				8B3EB31A2407E95100801531 /* RDWikipediaRecord.m in Sources */,
+				8B3EB3112407CE5D00801531 /* RDUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2D7XUY8FTP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RDRepositoryObC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,7 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2D7XUY8FTP;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RDRepositoryObC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
