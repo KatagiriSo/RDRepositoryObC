@@ -2,6 +2,8 @@
 This is a class library of API calls made with Objective-C.
 But.. this code is Old..  Fashion Style...
 
+MIT License
+
 Let's call Wikipedia's API as an example.
 
 ```objc
